@@ -41,7 +41,6 @@ main img {
 .group {
   display: flex;
   flex-direction: column;
-  margin-bottom: 10px;
 }
 
 .item {
@@ -51,6 +50,10 @@ main img {
 
 .item-double {
   flex: 2;
+}
+.group-form {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* -------  Navigation ------- */
