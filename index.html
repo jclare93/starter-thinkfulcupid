@@ -33,42 +33,44 @@
 
     <main>
       <!-- Join -->
-      <section id="join">
-        <img src="images/love.png" alt="ThinkfulCupid - love" />
-        <!-- Add join form here -->
-        <h2>Find Your Perfect Match</h2>
-        <div class ="group">
-          <form>
-            <div class ="group-form">
-              <label for="email">Email:</label>
-              <input id="email" type="text" name="email" />
-            </div>
-            <div class = "group-form">
-              <label for ="password">Create A Password:</label>
-              <input id="password" type="password" name ="password" minlength="8"/>
-            </div>
-            <div class="group-form">
-              <label for="username">Username:</label>
-              <input id ="username" type="text" name = "username" minlength="8"/>
-            </div>
-            <div class ="group-form">
-              <label for="gender">I am a...</label>
-              <select name ="gender" id ="gender" size ="1">
-                <option value ="male">Male</option>
-                <option value="female">Female</option>
-                <option value="non-Binary">non-Binary</option>
-                <option value ="I prefer not to say"> I prefer not to say</option>
-              </select>
-            </div>
-          </form>
-        </div>
-      </section>
-
+      <div class = "group">
+        <section id="join">
+          <div class = "item">
+            <img src="images/love.png" alt="ThinkfulCupid - love" />
+          </div>
+          <!-- Add join form here -->
+            <h2>Find Your Perfect Match</h2>
+            
+              <form>
+                <div class ="group-form">
+                  <label for="email">Email:</label>
+                  <input id="email" type="text" name="email" />
+                </div>
+                <div class = "group-form">
+                  <label for ="password">Create A Password:</label>
+                  <input id="password" type="password" name ="password" minlength="8"/>
+                </div>
+                <div class="group-form">
+                  <label for="username">Username:</label>
+                  <input id ="username" type="text" name = "username" minlength="8"/>
+                </div>
+                <div class ="group-form">
+                  <label for="gender">I am a...</label>
+                  <select name ="gender" id ="gender" size ="1">
+                    <option value ="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="non-Binary">non-Binary</option>
+                    <option value ="I prefer not to say"> I prefer not to say</option>
+                  </select>
+                </div>
+              </form>
+        </section>
+      </div>
       <!-- About -->
       <div class="group">
         <section id="about" class="alternate-background">
           <h2>About</h2>
-          <div class = "item-double">
+          <div class = "item">
             <img
               src="images/sunset-with-heart.png"
               alt="ThinkfulCupid - Sunset with heart"
