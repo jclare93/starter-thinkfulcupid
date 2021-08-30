@@ -34,6 +34,7 @@ section.alternate-background {
 .item img {
   width: 100%;
   padding-bottom: 15px;
+  align-items: center
 }
 
 /* ---  Groups & Items --- */
@@ -134,7 +135,7 @@ footer p {
 }
 
 /* -------  Media Query ------- */
-@media all and (min-width: 800px) {
+@media all and (min-width: 480px) {
 
 
   .group {
@@ -147,6 +148,11 @@ footer p {
   .group-vertical {
     display: flex;
     flex-direction: column;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
   }
 
 }
