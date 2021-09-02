@@ -154,17 +154,6 @@ footer p {
   header {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
   }
-  
-  .header-item{
-    flex:1;
-  }
-  .header-group{
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 15px;
-    align-items: center;
-    flex-flow: row wrap;
-  }
-
 }
